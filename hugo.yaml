@@ -13,11 +13,11 @@ hasCJKLanguage: true
 languages:
   zh-cn: # 这是我们的主角
     languageName: "中文"
-    title: "你的中文博客标题"
+    title: "lwp2070809's Blog"
     weight: 1 # 最小的权重，排第一
     params:
       sidebar:
-        subtitle: "你的中文简介"
+        subtitle: "Tempus timendum est mihi."
   en:
     languageName: "English"
     disabled: true
