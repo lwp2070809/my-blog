@@ -1,0 +1,5 @@
+# .gitignore 文件内容
+/public/
+/resources/
+hugo_stats.json
+.hugo_build.lock
