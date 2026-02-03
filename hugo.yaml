@@ -11,10 +11,10 @@ DefaultContentLanguage: "zh-cn"
 hasCJKLanguage: true
 
 languages:
-  zh-cn: # 这是我们的主角
+  zh-cn:
     languageName: "中文"
     title: "lwp2070809's Blog"
-    weight: 1 # 最小的权重，排第一
+    weight: 1
     params:
       sidebar:
         subtitle: "Tempus timendum est mihi."
@@ -22,7 +22,7 @@ languages:
     languageName: "English"
     disabled: true
     title: "Your English Blog Title"
-    weight: 2 # 权重比中文大，排第二
+    weight: 2
     params:
       sidebar:
         subtitle: "Your English description"
@@ -60,10 +60,7 @@ params:
     sidebar:
         emoji: 🍥
         subtitle: 在这里记录技术与生活
-        avatar:
-            enabled: true
-            local: true
-            src: img/avatar.png
+        avatar: null
 
     article:
         math: false
