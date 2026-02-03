@@ -1,0 +1,14 @@
+[zh]
+    languageName = "中文"
+    title = "lwp2070809's Blog"
+    weight = 1
+    [zh.params.sidebar]
+        subtitle = "Tempus timendum est mihi."
+
+[en]
+    languageName = "English"
+    disabled = true
+    title = "Ylwp2070809's Blog"
+    weight = 2
+    [en.params.sidebar]
+        subtitle = "Tempus timendum est mihi."

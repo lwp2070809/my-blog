@@ -1,0 +1,76 @@
+mainSections = ["post"]
+featuredImageField = "image"
+rssFullContent = true
+favicon = ""
+
+[footer]
+    since = 2025
+    customText = ""
+
+[dateFormat]
+    published = "2006-01-02"
+    lastUpdated = "2006-01-02 15:04"
+
+[sidebar]
+    emoji = "🍥"
+    subtitle = "在这里记录技术与生活"
+    avatar = ""
+
+[article]
+    math = false
+    toc = true
+    readingTime = true
+    [article.license]
+        enabled = true
+        default = "Licensed under CC BY-NC-SA 4.0"
+
+[comments]
+    enabled = true
+    provider = "giscus"
+
+    [comments.giscus]
+        repo = "lwp2070809/my-blog"
+        repoID = "R_kgDOO-5qcw"
+        category = "Comments"
+        categoryID = "DIC_kwDOO-5qc84C1zEN"
+        mapping = "pathname"
+        lightTheme = "preferred_color_scheme"
+        darkTheme = "preferred_color_scheme"
+        reactionsEnabled = 1
+        emitMetadata = 0
+        inputPosition = "top"
+        lang = "zh-CN"
+        strict = 0
+        loading = "lazy"
+
+[widgets]
+    homepage = [
+        { type = "search" },
+        { type = "archives", params = { limit = 5 } },
+        { type = "categories", params = { limit = 10 } },
+        { type = "tag-cloud", params = { limit = 10 } }
+    ]
+    page = [
+        { type = "toc" }
+    ]
+
+[opengraph]
+    [opengraph.twitter]
+        site = ""
+        card = "summary_large_image"
+
+[defaultImage]
+    [defaultImage.opengraph]
+        enabled = false
+        local = false
+        src = ""
+
+[colorScheme]
+    toggle = true
+    default = "auto"
+
+[imageProcessing]
+    [imageProcessing.cover]
+        enabled = true
+    [imageProcessing.content]
+        enabled = true

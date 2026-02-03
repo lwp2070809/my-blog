@@ -1,0 +1,18 @@
+baseURL = "https://blog.lwp2070809.de/"
+languageCode = "zh-cn"
+title = "lwp2070809's Blog"
+copyright = "lwp2070809"
+theme = "hugo-theme-stack"
+
+DefaultContentLanguage = "zh"
+hasCJKLanguage = true
+
+[pagination]
+    pagerSize = 3
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"
+
+[services.disqus]
+    shortname = "hugo-theme-stack"
