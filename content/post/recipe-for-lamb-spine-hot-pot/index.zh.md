@@ -5,7 +5,7 @@ lastmod: 2026-02-04T16:00:00+08:00
 draft: false
 slug: recipe-for-lamb-spine-hot-pot
 categories: ["Recipe"]
-tags: ["食谱", "羊蝎子"]
+tags: ["食谱", "羊蝎子", "火锅"]
 description: 无法抗拒的冬日火锅.
 ---
 
