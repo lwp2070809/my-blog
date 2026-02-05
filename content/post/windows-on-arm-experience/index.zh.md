@@ -9,7 +9,7 @@ tags: ["科技", "硬件", "Windows on ARM", "WoA"]
 description: 
 ---
 
-2023年6月我购买了`华为 MateBook E Go 2023`(标准版, 8cx gen3, 16+256), 作为我的上一台二合一电脑`Surface Pro 7`(i5, 8+128)的替代. 这台电脑作为主力设备在我前公司使用了一年, 主要进行Java开发和服务器运维, 并在现公司作为移动办公的设备使用. 下面是近三年来的使用体验. 这篇文章即撰写与此设备. 将使用`WoA`表示`Windows on ARM`.
+2023年6月我购买了`华为 MateBook E Go 2023`(标准版, 8cx gen3, 16+256), 作为我的上一台二合一电脑`Surface Pro 7`(i5, 8+128)的替代. 这台电脑作为主力设备在我前公司使用了一年, 主要进行Java开发和服务器运维, 并在现公司作为移动办公的设备使用. 下面是近三年来的使用体验. 这篇文章即撰写于此设备. 将使用`WoA`表示`Windows on ARM`.
 
 ## 性能和续航
 
@@ -39,13 +39,13 @@ description:
 
 * 视频播放器: Screenbox
 
-* 浏览器: Edge Firefox
+* 浏览器: Edge, Firefox
 
-* 办公: Office 全家桶
+* 办公: Office全家桶
 
-* 其他工具: PowerToys 微软键盘和鼠标中心 能源之星x 微软待办
+* 其他工具: PowerToys, 微软键盘和鼠标中心, 能源之星x, 微软待办
 
-* 其他开发工具: git AnotherRedisDesktopManager 
+* 其他开发工具: git, AnotherRedisDesktopManager
 
 ---
 
@@ -53,7 +53,7 @@ description:
 
 * 数据库GUI: HeidiSQL, DBeaver
 
-* 电子书管理: calibre
+* 电子书管理: Calibre
 
 * 远程桌面: RustDesk
 
