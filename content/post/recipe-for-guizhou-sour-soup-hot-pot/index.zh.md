@@ -3,7 +3,7 @@ title: 贵州酸汤火锅食谱
 date: 2026-02-05T14:00:00+08:00
 lastmod: 2026-02-05T14:00:00+08:00
 draft: false
-slug: recipe-for-lamb-spine-hot-pot
+slug: recipe-for-guizhou-sour-soup-hot-pot
 categories: ["Recipe"]
 tags: ["食谱", "酸汤", "火锅"]
 description: 一勺汤, 一碗饭.
