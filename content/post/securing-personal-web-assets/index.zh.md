@@ -56,12 +56,12 @@ services:
 
 ```json
 {
-        "type": "field",
-        "domain": [
-          "domain:example.com"
-        ],
-        "outboundTag": "direct"
-      }
+  "type": "field",
+  "domain": [
+    "domain:example.com"
+  ],
+  "outboundTag": "direct"
+}
 ```
 
 这样只要我连接了代理, 就会永远使用VPS的固定IP地址对vaultwarden的域名进行访问, 因此也可以很简单的在cloudflare编写规则
@@ -78,16 +78,16 @@ services:
 
 最初我没有使用任何其他商业服务, 仅仅是使用Caddy的Auto HTTPS和vaultwarden自带的TOTP.
 
-接下来我开始利用cloudflare进行安全保护. 最开始, 只使用了cloudflare DNS代理, 这会使得Caddy默认Auto HTTPS的HTTP challenge模式失效, 因此我配置了DNS challenge, 这增加了一层复杂度. 但是这就保证了即使是cloudflare访问我的vaultwarden服务也经过https, 实际上在这一层拥有比Cloudflare Tunnel更高的安全性, 因为Cloudflare Tunnel是通过http来访问内部的vaultwarden. 因此如果你不够信任cloudflare, 那其实更应该使用这种方式. 你还需要全局配置trusted_proxies, 确保caddy只能被cloudflare的IP地址进行访问.
+接下来我开始利用cloudflare进行安全保护. 最开始, 只使用了cloudflare DNS代理, 这会使得Caddy默认Auto HTTPS的HTTP challenge模式失效, 因此我配置了DNS challenge, 这增加了一层复杂度. 但是这就保证了即使是cloudflare访问我的vaultwarden服务也经过https, 实际上在这一层拥有比Cloudflare Tunnel更高的安全性, 因为Cloudflare Tunnel是通过http来访问内部的vaultwarden. 因此如果你不够信任cloudflare, 那其实更应该使用这种方式. 你还需要全局配置trusted_proxies, 确保caddy只能被cloudflare的IP地址进行访问. Caddy必须使用第三方模块构建来实现DNS challenge和trusted_proxies cloudflare.
 
 ```
 {
-    servers {
-        trusted_proxies cloudflare {
-            interval 12h    # 每 12 小时拉一次最新 IP 列表
-            timeout 15s     # 超时时间
-        }
+  servers {
+    trusted_proxies cloudflare {
+      interval 12h
+      timeout 15s
     }
+  }
 }
 ```
 
