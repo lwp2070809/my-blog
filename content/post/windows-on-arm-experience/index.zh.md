@@ -1,7 +1,7 @@
 ---
 title: Windows on ARM 体验报告
 date: 2026-02-05T14:00:00+08:00
-lastmod: 2026-02-05T14:00:00+08:00
+lastmod: 2026-10-16T21:00:00+08:00
 draft: false
 slug: windows-on-arm-experience
 categories: []
@@ -23,7 +23,7 @@ description:
 
 ## 办公体验
 
-我列出我使用的办公软件, 这些软件提供了在Windows上原生ARM64的体验, 未列出的软件不代表没有WoA版本, 可能只是我没有使用.
+我列出我使用的办公软件, 这些软件提供了在Windows上原生ARM64的体验, 未列出的软件不代表没有WoA版本, 可能只是我没有使用. 这里的列表在持续更新中, 因为越来越多的软件在逐步支持WoA.
 
 * SSH工具: Tabby
 
@@ -43,21 +43,21 @@ description:
 
 * 办公: Office全家桶
 
-* 其他工具: PowerToys, 微软键盘和鼠标中心, 能源之星x, 微软待办
+* 远程桌面: RustDesk
 
-* 其他开发工具: git, AnotherRedisDesktopManager
+* 其他工具: PowerToys, 微软键盘和鼠标中心, 能源之星x, 微软待办, LocalSend
+
+* 数据库GUI: AnotherRedisDesktopManager, DBeaver
+
+* 其他开发工具: git, 
 
 ---
 
 下面是一些只有x64版本的软件, 但是在WoA可以以兼容模式正常使用.
 
-* 数据库GUI: HeidiSQL, DBeaver
+* 数据库GUI: HeidiSQL
 
 * 电子书管理: Calibre
-
-* 远程桌面: RustDesk
-
-* 其他工具: LocalSend
 
 ---
 
